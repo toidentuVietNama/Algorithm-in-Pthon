@@ -27,14 +27,14 @@ otp_cipher = otp_encryption[0]
 otp_key = otp_encryption[1]
 print(f'Văn bản sau khi được mã hóa  : {otp_cipher}')
 print(f"Chìa khóa của văn bản:  {otp_key}")
-print(f"Văn bản sau khi được giải mã :{otp_decryption(otp_cipher, otp_key)}")
-
+print(f"Văn bản sau khi được giải mã :{otp_decryption(otp_cipher, otp_key)}
 """
 a   b   c  d  e  f  g   h  i  j  k   l    m    n   o    p  q    r    s    t    u     v    w    x    y    z
 0   1   2  3  4  5  6   7  8  9  10  11  12   13  14   15  16  17   18   19   20    21   22   23   24   25
 
-Văn bản truyền vào : Nguyen Sy Khoi 
+Văn bản truyền vào : Nguyen Sy Khoi
 Văn bản sau khi được mã hóa  : itkiteembfoc
-Chìa khóa của văn bản :  [21, 13, 16, 10, 15, 17, 12, 14, 17, 24, 0, 20]  : dạng chữ : vnqkqmoryau
+Chìa khóa của văn bản :  [21, 13, 16, 10, 15, 17, 12, 14, 17, 24, 0, 20] > dạng chữ : vnqkqmoryau
 Văn bản sau khi được giải mã :nguyensykhoi
+
 """
