@@ -9,7 +9,7 @@ def otp(message):
     while len(key) < len(message):
         key.append(secrets.choice(range(0,len(plain_dict))))
         encrypt_list = [(inv_dict[letter]+index )%len(plain_dict) for letter, index in zip(message,key)]
-        # VD : [(inv_dict['H'] + 4 ) % 26
+        # VD : [(inv_dict['H'] : 7 + 4 ) % 26
     return [''.join([plain_dict[ind] for ind in encrypt_list]), key]
 
 
